@@ -1,4 +1,3 @@
-
 # 📚 Listas de Exercícios - JavaScript
 
 Este repositório contém listas de exercícios de **JavaScript** desenvolvidas para prática e reforço dos conceitos estudados no curso.
@@ -54,15 +53,34 @@ Cada lista aborda um tema fundamental para o aprendizado da linguagem, com exerc
 
 ---
 
+
+### 7. Loops e Análise de Arrays
+- Escreva um código que utilize o loop `for/of` para iterar e imprimir cada elemento de um array.
+- Crie uma função que receba uma array e imprima no console o número do índice e o elemento.
+- Crie uma função que receba uma array de números inteiros e retorne a soma dos elementos.
+- Crie uma função que receba uma array de números inteiros e retorne o menor valor e o maior valor da array, no seguinte formato: 'o menor número é X e o maior número é Y'.
+- Crie um programa que utilize um laço `for` para percorrer uma array `const numeros = [3, 8, 12, 5, 6, 10, 7, 2, 9, 14]` e exibir no console apenas os números pares contidos nesse array.
+- Crie um programa que calcule a média dos números presentes em um array utilizando um loop `for`.
+
+### 8. Métodos de Array e Callbacks
+- Utilize o método `forEach` para imprimir cada elemento de um array juntamente com seu índice.
+- Crie uma função chamada `executaOperacaoEmArray` que recebe dois parâmetros: um array e uma função de callback que executa alguma operação matemática. A função deve iterar por cada elemento do array e aplicar o callback, imprimindo o resultado no console.
+- Crie um programa que verifique se um número específico está presente em um array. Se estiver, retorne o índice desse número; caso contrário, retorne "-1".
+- Utilize o método `concat()` para unir os arrays `nomesTurmaA` e `nomesTurmaB` em um único array chamado `todasAsTurmas`. Depois, utilize o método `find()` para buscar um aluno específico pelo nome. Exiba uma mensagem informando o nome do aluno procurado ou uma mensagem de aviso caso não seja encontrado.
+- Dado um array de números inteiros, utilize o método `forEach()` para multiplicar cada elemento por 3 e exibir o resultado. Depois, utilize `findIndex()` para encontrar o índice do número `18` no array original.
+
+### 9. Spread Operator, Reduce e Filtros
+- Faça uma função que aceite vários arrays como argumentos e retorne um único array contendo todos os elementos dos arrays fornecidos, utilizando **Spread Operator**.
+- Crie um array de números chamado `valores` e escreva um programa que some todos os elementos utilizando o método `reduce`.
+- Considere duas listas de cores. Crie um programa que una essas listas, **remova duplicatas** e exiba a lista final.
+- Escreva uma função que receba um array de números e retorne um novo array contendo apenas os **números pares**.
+- Crie uma função que filtre os números de um array que são **múltiplos de 3 e maiores que 5**.
+- Crie uma função que receba um array de números e **retorne a soma de todos os elementos**.
+
+
 ## 🚀 Tecnologias Utilizadas
 
 - [Node.js](https://nodejs.org/) — Para execução local dos exercícios.
 - [JavaScript (ES6+)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) — Linguagem principal dos exercícios.
-
----
-
-## 📌 Observações
-- Este repositório será atualizado conforme avanço nos estudos de JavaScript.
-- Novos temas e listas de exercícios serão adicionados futuramente!
 
 ---
